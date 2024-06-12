@@ -1,0 +1,199 @@
+* {
+  box-sizing: border-box;
+}
+body {
+  background-color: #1e202b;
+}
+.navbar-collapse ul li {
+  position: relative;
+}
+.navbar-collapse ul li a {
+  padding: 5px 30px;
+  border: 2px solid transparent;
+  border-radius: 30px;
+  color: white;
+  transition: 0.3s ease;
+  font-weight: 400;
+}
+.navbar-collapse ul li a:hover {
+  border-color: #009ad8;
+  color: #009ad8 !important;
+}
+header .container-100 {
+  background-color: #1e202b;
+  box-shadow: 0px 30px 50px rgba(0, 0, 0, 0.15);
+  padding: 1.2rem 0;
+  display: flex;
+  align-items: center;
+}
+.navbar-collapse a {
+  font-size: 1rem;
+  margin: 0 10px;
+  font-weight: 600;
+}
+.logos {
+  display: inline-block;
+  vertical-align: middle;
+  margin-left: 1rem;
+}
+.logo p {
+  font-size: 0.7rem;
+}
+.logo span {
+  font-size: 1.2rem;
+}
+/*Search Section*/
+.find-location {
+  position: relative;
+  margin-bottom: 70px;
+}
+.searchSection {
+  background-image: url(../imgs/banner.png);
+  background-position: center;
+  background-size: cover;
+  height: 350px;
+  padding: 70px 0;
+}
+.find-location input[type="text"] {
+  width: 100%;
+  padding: 20px 50px 20px 20px;
+  background: #1e202b;
+  color: white;
+}
+form input,
+form textarea,
+form select {
+  outline: none;
+  border: none;
+  padding: 10px;
+  border-radius: 30px;
+}
+button,
+input {
+  line-height: normal;
+}
+.find-location input[type="submit"],
+.find-location input[type="button"] {
+  position: absolute;
+  top: 5px;
+  right: 5px;
+  bottom: 5px;
+  padding: 0 40px;
+}
+.button,
+form input[type="submit"],
+form input[type="button"],
+form button,
+form input[type="reset"] {
+  border: none;
+  background: #009ad8;
+  padding: 10px 20px;
+  border-radius: 30px;
+  color: white;
+}
+button,
+html input[type="button"],
+input[type="reset"],
+input[type="submit"] {
+  cursor: pointer;
+}
+/* Weather section */
+.weather {
+  margin-top: -150px;
+}
+.firstDay {
+  background-color: rgb(50, 53, 68);
+}
+.today {
+  background: rgba(0, 0, 0, 0.1);
+}
+.secondDay .days {
+  background-color: rgb(34, 37, 48);
+}
+.thirdDay .days {
+  background-color: rgb(45, 48, 61);
+}
+.days p {
+  margin-bottom: 0;
+}
+.days {
+  padding: 10px;
+  text-align: center;
+  font-weight: 400;
+}
+.secondDay {
+  background-color: rgb(38, 41, 54);
+}
+
+.thirdDay {
+  background-color: rgb(50, 53, 68);
+}
+.daydetails {
+  padding: 0 10px;
+}
+.firstDay h1 {
+  font-size: 6rem;
+}
+.weathericons span {
+  margin-right: 30px;
+  padding-bottom: 30px;
+}
+.weathericons {
+  padding-bottom: 30px;
+  margin-top: 10px;
+}
+.weathericons img {
+  margin-right: 5px;
+}
+.degree {
+  position: relative;
+  top: -1.9rem;
+}
+.degreemax {
+  position: relative;
+  top: -0.9rem;
+}
+
+.degreemin {
+  position: relative;
+  top: -0.5rem;
+}
+.col-md-4 .item {
+  height: 400px;
+  margin-bottom: 50px;
+}
+footer {
+  background: #262936;
+  padding: 50px 0;
+}
+footer .subscribe-form input[type="text"] {
+  padding: 20px 100px 20px 20px;
+  background: #1e202b;
+  width: 100%;
+  color: white;
+}
+footer .subscribe-form input[type="submit"] {
+  position: absolute;
+  right: 5px;
+  top: 5px;
+  bottom: 5px;
+}
+.socials a {
+  width: 40px;
+  height: 40px;
+  display: inline-block;
+  border-radius: 50%;
+  background: #1e202b;
+  color: #009ad8;
+  text-align: center;
+  -webkit-transition: 0.3s ease;
+  transition: 0.3s ease;
+  font-size: 20px;
+  font-size: 1.6rem;
+  text-decoration: none;
+  margin-top: 10px;
+}
+.socials a:hover {
+  background: #009ad8;
+  color: #1e202b;
+}
