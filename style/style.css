@@ -197,3 +197,8 @@ footer .subscribe-form input[type="submit"] {
   background: #009ad8;
   color: #1e202b;
 }
+@media (max-width: 358px) {
+  .col-md-4 .item {
+    height: 500px;
+  }
+}
